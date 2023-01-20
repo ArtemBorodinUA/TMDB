@@ -56,15 +56,47 @@
 		8A44C497297AA5C500740CB8 /* TMDB-application */ = {
 			isa = PBXGroup;
 			children = (
-				8A44C498297AA5C500740CB8 /* AppDelegate.swift */,
-				8A44C49A297AA5C500740CB8 /* SceneDelegate.swift */,
 				8A44C49C297AA5C500740CB8 /* ViewController.swift */,
+				8A44C4AE297AA9A500740CB8 /* Application */,
+				8A44C4AF297AA9B400740CB8 /* Models */,
+				8A44C4AD297AA98B00740CB8 /* Resources */,
+				8A44C4AC297AA96200740CB8 /* Storyboards */,
+			);
+			path = "TMDB-application";
+			sourceTree = "<group>";
+		};
+		8A44C4AC297AA96200740CB8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
 				8A44C49E297AA5C500740CB8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8A44C4AD297AA98B00740CB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				8A44C4A1297AA5C600740CB8 /* Assets.xcassets */,
 				8A44C4A3297AA5C600740CB8 /* LaunchScreen.storyboard */,
 				8A44C4A6297AA5C600740CB8 /* Info.plist */,
 			);
-			path = "TMDB-application";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A44C4AE297AA9A500740CB8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8A44C498297AA5C500740CB8 /* AppDelegate.swift */,
+				8A44C49A297AA5C500740CB8 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8A44C4AF297AA9B400740CB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KU7276U642;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TMDB-application/Info.plist";
+				INFOPLIST_FILE = "TMDB-application/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KU7276U642;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TMDB-application/Info.plist";
+				INFOPLIST_FILE = "TMDB-application/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
